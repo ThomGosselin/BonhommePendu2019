@@ -1,0 +1,55 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding: 5px;
+  margin: 10px;
+}
+
+h1 {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#HeadFilm {
+  background-color: #c5c5c5;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Calibri;
+  font-size: 24px;
+  border-bottom: 12px solid #b5b5b5;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#film {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  background-color: #000;
+  color: #fff;
+}

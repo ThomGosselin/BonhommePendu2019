@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="Jeu du pendu" />
+    <title>Mot mystère</title>
+  </head>
+
+  <body>
+    <header id="HeadIndex">
+      <h1>Mot mystère - Ryan Renolds Special Edition</h1>
+      <h2>ATTENTION - Tout les titres sont en anglais</h2>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="index.html"><b>Acceuil</b></a>
+          </li>
+          <li>
+            <a href="jeu.html"><b>Jeu</b></a>
+          </li>
+          <li>
+            <a href="prix.html"><b>Prix</b></a>
+          </li>
+          <li>
+            <a href="film.html"><b>Film</b></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <p id="js-word"></p>
+      </section>
+      <section>
+        <form action="index.html" method="get" id="js-form-word">
+          <input type="text" name="word" id="js-field-word" maxlength="1" />
+
+          <input type="submit" value="Soumettre" />
+          <p id="js-count">vous n'avez toujours pas essayer</p>
+        </form>
+        <p id="js-feedback"><b>Bravo!</b>vous avez trouvé!</p>
+        <p id="js-final-count"></p>
+        <input type="submit" value="Niveau suivant" id="btnNext" /><a
+          href="index.html"
+        ></a>
+        <p class="score">Vous n'avez pas de points</p>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>
+        &copy; 2019 Thomas Gosselin. Réalisé dans le cadre scolaire de première
+        session au collégial.
+      </p>
+    </footer>
+    <script src="js/game.js"></script>
+  </body>
+</html>
